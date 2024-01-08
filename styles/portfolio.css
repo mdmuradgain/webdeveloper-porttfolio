@@ -162,3 +162,26 @@ main section {
   text-align: center;
   margin-top: 50px;
 }
+footer{
+  display: flex;
+  gap: 100px;
+  background-color: #FFF8F3;
+  margin-top: 100px;
+  padding: 130px 200px;
+}
+.footer_colum{
+  width: 50%;
+}
+.social_links a{
+  margin-right: 25px;
+}
+.contact input[type="text"], .contact input[type="email"], textarea{
+  display: block;
+  margin-bottom: 20px;
+  padding: 18px 35px;
+  color: #757575;
+  border: 0;
+  border-radius: 5px;
+  width: 100%;
+  background: #ffff;
+}
